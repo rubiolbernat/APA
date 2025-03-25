@@ -1,5 +1,7 @@
 import primos as pr
+import doctest
 
+doctest.testmod(pr, verbose=True)
 pr.esprimer(3)
 
 pr.__annotations__
